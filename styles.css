@@ -18,18 +18,17 @@ body, h1, h2, h3, p, ul, li {
     font-style: italic;
 }
 
-/* Define the image-container class */
+
 .image-container {
-    max-width: 50%; /* Set the maximum width */
-    height: auto; /* Maintain aspect ratio */
-    text-align: center; /* Center the image horizontally */
+    max-width: 50%;
+    height: auto; 
+    text-align: center; 
     align-items: center;
     display: block;
     margin-left: auto;
     margin-right: auto;
 }
 
-/* Style the image within the container if needed */
 .image-container img {
     max-width: 50%;
     height: auto;
@@ -49,6 +48,7 @@ header {
     color: #000;
     padding: 1em 0;
     text-align: center;
+    margin-right: 20px;
 }
 
 nav ul {
@@ -101,7 +101,7 @@ section {
     text-align: center;
 }
 
-#sound {
+#cv {
     background-color: #FFFFFF;
     text-align: center;
 }
