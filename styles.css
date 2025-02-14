@@ -1,8 +1,21 @@
-body, h1, h2, h3, p, ul, li {
+body, h1, h2, h3, ul, li {
     margin: 0;
     padding: 0;
+    text-align: center;
 }
 
+p {
+    margin: 30;
+    padding-left: 30;
+}
+
+.box {
+ width:500px;
+  padding-top:15px;
+  padding-left:350px;
+  padding-bottom:15px;
+  word-wrap: break-word;
+}
 
 .spacer {
     margin-top: 25px;
@@ -20,7 +33,7 @@ body, h1, h2, h3, p, ul, li {
 
 
 .image-container {
-    max-width: 50%;
+    max-width: 70%;
     height: auto; 
     text-align: center; 
     align-items: center;
@@ -74,7 +87,7 @@ section {
 
 #statement {
     background-color: #FFFFFF;
-    text-align: center;
+    text-align: left;
 }
 
 #work {
@@ -83,10 +96,6 @@ section {
     text-align: center;
 }
 
-#artwork-specifics {
-    background-color: #FFFFFF;
-    text-align: center;
-}
 
 .artwork {
     margin-bottom: 20px;
@@ -103,7 +112,7 @@ section {
 
 #cv {
     background-color: #FFFFFF;
-    text-align: center;
+    text-align: left;
 }
 
 footer {
